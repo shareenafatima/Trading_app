@@ -1,0 +1,46 @@
+.container{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+h2{
+    font-size: 60px;
+    font-weight: bold;
+    color: #03045e;
+}
+.field{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.actions .submit{
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 6px;
+    border-color: #03045e;
+    border-radius: 6px  ;
+    background-color: #03045e;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+ .submit:hover{
+    background-color: black;
+    color: aliceblue;
+    border-color: black;
+}
+.text{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 4px;
+}
+h4{
+    color:  red;
+
+}
+.container h3{
+    font-size: 45px;
+}
