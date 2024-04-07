@@ -1,12 +1,13 @@
 
  <% if user_signed_in? %>
  Logged in as   <strong class= "mx-3"><%= current_user.email %></strong>
- <%= button_to "Edit Profile  ", edit_user_registration_path,method: :get, class: "btn btn-dark mx-3 mt-2 me-2" %> 
+  <%= button_to "Trade  ", new_trade_path,method: :get, class: "btn btn-dark mx-1 mt-2 me-2" %> 
+ <%= button_to "Edit Profile  ", edit_user_registration_path,method: :get, class: "btn btn-dark mx-1 mt-2 me-2" %> 
 
 
-<%= button_to "log out  ", destroy_user_session_path, method: :delete, class: "btn btn-warning mx-3 mt-2 me-2" %>
+<%= button_to "log out  ", destroy_user_session_path, method: :delete, class: "btn btn-dark mx-1 mt-2 me-2" %>
  <%else%>
- <%= link_to "sign up  ", new_user_registration_path, class: "btn btn-warning mx-3 mt-2 me-2" %>
+ <%= link_to "sign up  ", new_user_registration_path, class: "btn btn-dark mx-1 mt-2 me-2" %>
  <%= link_to "login", new_user_session_path,class: "btn btn-dark mx-3 mt-2 me-2" %>
 <% end %> 
  
